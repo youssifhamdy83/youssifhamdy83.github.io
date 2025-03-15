@@ -2866,8 +2866,29 @@ input[type="radio"]:focus+label:before {
 
 .certificate-card h3 {
     font-size: 18px;
-    color: #333;
+    color: #909498;
     margin-bottom: 10px;
+}
+
+.hashtags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	text-align: center; /* Centers all text inside the container */
+    margin: 16px;
+	justify-content: center;
+	padding: 15px 0px;
+}
+
+.tag {
+	border: 2px solid #ddd;
+	background-color: white;
+	color: #909498;
+	padding: 6px;
+	font-weight: 600;
+	border-radius: 10px;
+	font-size: 14px;
+	display: inline-block;
 }
 
 
@@ -2883,6 +2904,7 @@ input[type="radio"]:focus+label:before {
 .image.main {
 	display: block;
 	margin: 4rem 0;
+	margin-bottom: 1rem;
 	width: 100%;
 	object-fit: cover; /* Prevents distortion */
     border-radius: 10px; /* Optional: Rounded corners */
